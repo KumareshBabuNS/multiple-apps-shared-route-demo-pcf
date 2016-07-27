@@ -1,0 +1,14 @@
+---
+instances: 1
+memory: 64M
+buildpack: staticfile_buildpack
+applications:
+- name: demo-app-root
+  host: demo-app
+  path: demo-app
+- name: section-a
+  path: section-a
+- name: section-b
+  path: section-b
+
+
